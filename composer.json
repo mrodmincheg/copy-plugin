@@ -1,0 +1,16 @@
+{
+  "name": "odmin/copy-plugin",
+  "description": "Copy files and folders into project folder after your package installation",
+  "type": "composer-plugin",
+  "require": {
+    "composer-plugin-api": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CopyPlugin\\": "src/"
+    }
+  },
+  "extra": {
+    "class": "CopyPlugin\\Plugin"
+  }
+}
